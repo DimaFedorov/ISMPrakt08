@@ -32,5 +32,53 @@ namespace ClassLibrary
             Specialty = workPlace.Specialty;
             Experience = workPlace.Experience;
         }
+        public string GetNameCompany()
+        {
+            return NameCompany;
+        }
+        public Address GetAddress()
+        {
+            return Address;
+        }
+        public string GetSpecialty()
+        {
+            return Specialty;
+        }
+        public int GetExperience()
+        {
+            return Experience;
+        }
+        public long GetPhoneNumber()
+        {
+            return PhoneNumber;
+        }
+        public string GetEmail()
+        {
+            return Email;
+        }
+        public void SetNameCompany(string namecompany)
+        {
+            NameCompany = namecompany;
+        }
+        public void SetAddress(Address address)
+        {
+            Address = address;
+        }
+        public void SetSpecialty(string specialty)
+        {
+            Specialty = specialty;
+        }
+        public void SetExperience(int experience)
+        {
+            Experience = experience;
+        }
+        public void SetPhoneNumber(long phonenumber)
+        {
+            PhoneNumber = phonenumber;
+        }
+        public void SetEmail(string email)
+        {
+            Email = email;
+        }
     }
 }

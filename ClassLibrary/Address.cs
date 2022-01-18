@@ -31,5 +31,45 @@ namespace ClassLibrary
             HouseNumber = address.HouseNumber;
             Index = address.Index;
         }
+        public string GetCountry()
+        {
+            return Country;
+        }
+        public string GetCity()
+        {
+            return City;
+        }
+        public string GetStreet()
+        {
+            return Street;
+        }
+        public int GetHouseNumber()
+        {
+            return HouseNumber;
+        }
+        public int GetIndex()
+        {
+            return Index;
+        }
+        public void SetCountry(string country)
+        {
+            Country = country;
+        }
+        public void SetCity(string city)
+        {
+            City = city;
+        }
+        public void SetStreet(string street)
+        {
+            Street = street;
+        }
+        public void SetHouseNumber(int housenumber)
+        {
+            HouseNumber = housenumber;
+        }
+        public void SetIndex(int index)
+        {
+            Index = index;
+        }
     }
 }

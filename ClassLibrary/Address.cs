@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    class Address
+    public class Address
     {
         protected string Country;
         protected string City;

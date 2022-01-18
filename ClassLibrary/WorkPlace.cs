@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    class WorkPlace
+    public class WorkPlace
     {
         protected string NameCompany;
         protected Address Address;
